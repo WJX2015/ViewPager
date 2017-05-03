@@ -7,10 +7,24 @@
     android:layout_height="match_parent"
     tools:context="com.example.lenovo_g50_70.viewpager.MainActivity">
 
-    <TextView
-        android:text="MainActivity"
-        android:layout_centerInParent="true"
-        android:gravity="center"
+    <com.example.lenovo_g50_70.viewpager.ScrollerLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="This is first child view"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="This is second child view"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="This is third child view"/>
+
+    </com.example.lenovo_g50_70.viewpager.ScrollerLayout>
+
 </RelativeLayout>

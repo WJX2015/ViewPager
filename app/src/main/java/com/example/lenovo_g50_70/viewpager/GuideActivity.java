@@ -65,7 +65,7 @@ public class GuideActivity extends AppCompatActivity {
                     aa.setDuration(1000);
                     mButton.startAnimation(aa);
                 }else {
-                    //防止在最后一页翻回上一页，Button还在
+                    //防止在最后一页返回上一页，Button还在
                     mButton.setVisibility(View.GONE);
                 }
             }
